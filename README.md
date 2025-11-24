@@ -1,5 +1,7 @@
 # Estratégia de Cache L1 com Redis e MongoDB
 
+<img width="621" height="264" alt="image" src="https://github.com/user-attachments/assets/2f8ebc8c-f0bf-483b-b6dd-4e46ee137a9e" />
+
 Um projeto Django Rest Framework demonstrando uma arquitetura de cache de duas camadas usando Redis como cache L1 (Nível 1) e MongoDB como armazenamento persistente L2.
 
 ## Visão Geral do Projeto
