@@ -98,6 +98,12 @@ curl http://localhost:8000/api/features/CUST12345/ | jq
 ```
 
 **Verifique os logs do Django** para ver:
+
+
+```bash
+docker-compose logs | egrep "CUST12345"
+```
+
 ```
 INFO Features cache MISS Redis, HIT MongoDB for CUST12345
 INFO Features cached in Redis for CUST12345
